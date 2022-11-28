@@ -1,3 +1,12 @@
+#
+#
+#-------------------------------------------------------------
+provider "aws" {
+  region     = "us-east-1"
+  access_key = "AKIA53O3V4OWRHSNHXNB"
+  secret_key = "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"
+}
+
 #-----------------------
 # EKS CLuster Definition
 #-----------------------
