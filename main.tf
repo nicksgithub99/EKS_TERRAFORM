@@ -16,7 +16,7 @@ resource "aws_eks_cluster" "eksdemo" {
   role_arn = aws_iam_role.eksdemorole.arn
 
   vpc_config {
-    subnet_ids = ["subnet-078d90354c8c6ebe5", "subnet-09ec6941e73860d80	"]
+    subnet_ids = ["subnet-002ea574e2f4b90c9", "subnet-05dec5fdf61e9f721"]
   }
 
   depends_on = [
